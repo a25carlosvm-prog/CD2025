@@ -14,11 +14,13 @@ int main() {
     return 0;
 }
 ```
+Gardamos o código e compilamolo:
 > gcc exercicio.c -o exercicio
 
 ### Java
 > nano Exercicio.java
 
+Escribimos o código
 ```java
 public class Exercicio {
     public static void main(String[] args) {
@@ -28,13 +30,16 @@ public class Exercicio {
     }
 }
 ```
+Gardamos o código e compilamolo:
 > javac Exercicio.java
 
 ### Python
-
 > nano exercicio.py
+
+Escribimos o código
 ```python
 for i in range(1, 101):
     print(i)
 ```
+Gardamos o código e compilamolo:
 > python3 exercicio.py
