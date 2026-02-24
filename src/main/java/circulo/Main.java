@@ -2,7 +2,15 @@ package circulo;
 
 import java.text.DecimalFormat;
 
+/**
+ * Clase Main
+ * @author Xulio
+ */
 public class Main {
+    /**
+     * Metodo main
+     * @param args
+     */
     public static void main(String[] args) {
         Circulo circulo = new Circulo(37,43,2.5);
         String salida =
