@@ -3,7 +3,7 @@ package circulo;
 import java.text.DecimalFormat;
 
 /**
- * Clase Main
+ * Clase Main que ejecuta metodos sobre Circulo
  * @author Xulio
  */
 public class Main {

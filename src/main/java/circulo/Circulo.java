@@ -1,15 +1,13 @@
 package circulo;
 
 /**
- * Clase Circulo
+ * Clase Circulo con (x,y) y radio
  * @author Xulio
+* @param x
+* @param y
+* @param radio
  */
 public class Circulo {
-    /**
-     * @param x
-     * @param y
-     * @param radio
-     */
     private int x;
     private int y;
     private double radio;
