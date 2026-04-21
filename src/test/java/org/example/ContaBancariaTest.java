@@ -10,4 +10,14 @@ public class ContaBancariaTest {
         ContaBancaria conta = new ContaBancaria();
         conta.ingresar(-10);
     }
+    @Test
+    void ingresarCero() throws Exception{
+        ContaBancaria conta = new ContaBancaria();
+        conta.ingresar(0);
+    }
+    @Test
+    void retirarNegativo() throws Exception{
+        ContaBancaria conta = new ContaBancaria();
+        conta.retirar(-10);
+    }
 }
